@@ -27,7 +27,7 @@
 	Fork of Normalize (https://github.com/necolas/normalize.css)
 ======================================================================*/
 
-    * {box-sizing:border-box;} /* Does not work below IE8 */
+    * {box-sizing:border-box;} /* Does not work below IE8. For info:; http://bit.ly/AvCDqv */
     article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block;}
     audio,canvas,video{display:inline;zoom:1;}
     html{font-size:100%;overflow-y:scroll;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}
@@ -66,3 +66,5 @@
     table{border-collapse:collapse;border-spacing:0;}
     audio:not([controls]),[hidden]{display:none;}
     body,figure,form{margin:0;}
+
+    h1,h2,h3,h4,h5,h6 { text-rendering: optimizelegibility; } /* For info: http://bit.ly/ypHdOk */
