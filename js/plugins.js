@@ -1,8 +1,8 @@
 ﻿/*====================================================================
-	Plugins.js
+    Plugins.js
 ======================================================================
 
-	Please paste any plugins used across the whole site into this page
+    Please paste any plugins used across the whole site into this page
     rather than using external files. If you need to debug, please use
     uncompressed files.
 
@@ -16,8 +16,8 @@
 ======================================================================
 
     - Make it safe to use console.log always
-	- jQuery HoverIntent
-	- jQuery Easing
+    - jQuery HoverIntent
+    - jQuery Easing
 
 ====================================================================*/
 
