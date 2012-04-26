@@ -16,7 +16,6 @@
 ======================================================================
 
     - Normalize
-    - Modern CSS Features
     - Web Fonts
     - Tables
 
@@ -62,23 +61,6 @@
     table{border-collapse:collapse;border-spacing:0;}
     audio:not([controls]),[hidden]{display:none;}
     body,figure,form{margin:0;}
-
-/*======================================================================
-    Modern CSS Features
-======================================================================*/
-
-    /* Does not work below IE8. For info see http://bit.ly/AvCDqv */
-    * {
-        -webkit-box-sizing:border-box;
-        -moz-box-sizing:border-box;
-        box-sizing:border-box;
-        *behavior: url(/js/libs/boxsizing.htc); /* Polyfill for IE6 + IE7 */
-    }
-
-    /* Issues on some Android devices. For info see http://bit.ly/ypHdOk */
-    h1,h2,h3,h4,h5,h6 {
-        text-rendering: optimizelegibility; 
-    }
 
 /*=====================================================================
     Web Fonts
