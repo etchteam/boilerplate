@@ -1,24 +1,39 @@
-﻿(function($) {
-	/**
-	 * Base Javascript 
-	 *
-	 * This contains javascript that will be used across your entire application
-	 * and should be used for initialisation and global event handling
-	 * 
-	 *
-	 * @author YOUR NAME <YOUR_EMAIL>
-	 * @copyright Red Bullet THIS_YEAR
-	 */
+﻿/*====================================================================
+    base.js
+======================================================================
 
-	/**
-	 * Init - Pre events
-	 */
-	
-	// put code here
+    @name       Confused.com Stylguide
+    @author     Red Bullet <support@redbullet.co.uk>
+    @copyright  Red Bullet 2012
 
-	/**
-	 * Global Events 
-	 */
+	This contains javascript that will be used across your entire
+    application	and should be used for initialisation and global
+    event handling.
+
+    If scripts are only used on one template, please use a
+    specific file such as TEMPLATE-NAME.js
+
+======================================================================
+    Contents
+======================================================================
+
+    - Functions
+    - Global Events
+
+======================================================================
+	Functions
+======================================================================*/
+
+
+
+
+
+/*====================================================================
+	Global Events
+======================================================================*/
+
+(function($) {
+
 	
 	$(document).ready( function() { 
 
